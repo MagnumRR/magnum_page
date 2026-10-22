@@ -1,0 +1,76 @@
+* {
+    font-family: Calibri;
+    font-size: 20px;
+}
+
+img {
+    width: 200px;
+    height: 230px;
+    border-radius: 10px;
+    box-shadow: 10px 8px 8px 2px rgb(0, 0, 0, 0.45);
+    
+    
+}
+
+header {
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    display: flex;
+    background-color: darkgray;
+    border-radius: 8px;
+}
+
+h1 {
+    font-size: 60px;
+    font-family: "Seaweed Script";
+}
+
+.d-titulo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 0;
+    width: 100%;
+    margin-left: 150px;
+}
+
+.d-titulo > h1, h2 {
+    margin: 0;
+}
+
+#subt {
+    color: antiquewhite;
+}
+
+nav {
+    margin-bottom: 20px;
+}
+
+nav > ul {
+    height: 50px;
+    margin: 5px 0 5px 0;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+}
+
+
+
+footer {
+    background-color: darkgrey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 70px;
+    border-radius: 8px;
+}
+
+footer > p {
+    height: 30px;
+    margin: 0;
+    color: white;
+}
