@@ -5,6 +5,7 @@
 
 body {
     background-color: wheat;
+    
 }
 
 img {
@@ -44,7 +45,7 @@ h1 {
     padding: 0;
     max-width: 100vw;
     min-width: 5vw;
-    
+    margin-left: 9em;
 }
 
 .d-titulo > h1, h2 {
@@ -56,21 +57,29 @@ h1 {
     font-size: 2dvi;
 }
 
+section {
+    width: 90vw;
+    margin: 0 20px 0 60px;
+}
+
 nav > ul{
     display: flex;
+    justify-content: center;
     align-items: center;
     height: 50px;
-    border: 1px solid;
-    margin: 0;
-    width: 100%;
+    max-width: 100vw;
+    min-width: 5vw;
+    gap: 50px;
 }
 
 nav > ul > li{
-    display: flex;
-    justify-content: space-between;
-    width: 8rem;
+    
     list-style: none;
-    border: 1px solid;
+}
+
+.resumo {
+    text-align: justify;
+    text-indent: 40px;
 }
 
 footer {
@@ -90,5 +99,5 @@ footer > p {
 }
 
 li {
-    content: normal;
+    list-style: image-set("carraca.png");
 }
