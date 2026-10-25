@@ -2,10 +2,11 @@
     box-sizing: border-box;
     font-family: Calibri;
     font-size: 20px;
+    color: white;
 }
 
 body {
-    background-color: wheat;
+    background-image: image-set("fundo_azul_avif.avif");
     margin: 8px;
 }
 
@@ -41,7 +42,7 @@ header {
 h1 {
     font-size: 5dvi;
     font-family: "Seaweed Script";
-    color: darkblue;
+    color: navy;
 }
 
 .d-titulo {
@@ -92,6 +93,10 @@ nav > ul > li + li {
 .resumo {
     text-align: justify;
     text-indent: 40px;
+}
+
+.m-subt {
+    color: yellow;
 }
 
 footer {
